@@ -31,10 +31,9 @@
   "editor.minimap.enabled": false,
 
   "workbench.activityBar.visible": false,
-  "terminal.integrated.fontFamily": "Source Code Pro",
+  "terminal.integrated.fontFamily": "Menlo",
   "terminal.integrated.cursorBlinking": true,
   "python.pythonPath": "python3",
-  "window.zoomLevel": 0,
   "cquery.cacheDirectory": "/Users/seiya/.vscode/cquery/${workspaceFolderBasename}",
   "typescript.tsserver.log": "verbose",
   "workbench.startupEditor": "newUntitledFile",
@@ -50,13 +49,11 @@
   "terminal.integrated.macOptionIsMeta": true,
   "terminal.integrated.setLocaleVariables": false,
   "python.jediEnabled": false,
-  "terminal.integrated.rendererType": "canvas",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "latex-workshop.latex.autoBuild.run": "never",
-  "C_Cpp.updateChannel": "Insiders",
   "editor.tabSize": 8,
-  "workbench.editor.showTabs": true,
+  "workbench.editor.showTabs": false,
   "gitlens.advanced.messages": {
     "suppressLineUncommittedWarning": true
   },
@@ -64,13 +61,10 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
 "vsicons.dontShowNewVersionMessage": true,
   "ansible.autocompletion": false,
-  "gitlens.currentLine.enabled": false,
-  "gitlens.codeLens.enabled": false,
   "gitlens.defaultDateStyle": "absolute",
-  "workbench.colorTheme": "Solarized Dark",
+  "workbench.colorTheme": "One Dark Pro",
   "gitlens.mode.active": "review",
-  "editor.fontSize": 13.5,
-"editor.fontFamily": "'Source Code Pro',Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 12.5,
 "python.languageServer": "Pylance",
 "terminal.integrated.cursorStyle": "line",
 "python.showStartPage": false,
@@ -90,4 +84,17 @@
   "editor.tabCompletion": "onlySnippets",
   "editor.wordBasedSuggestions": false
 },
+"gitlens.blame.highlight.enabled": false,
+"gitlens.codeLens.enabled": false,
+"gitlens.currentLine.enabled": false,
+"update.mode": "manual",
+"rust-analyzer.notifications.cargoTomlNotFound": false,
+"workbench.editorAssociations": [
+  {
+    "viewType": "jupyter.notebook.ipynb",
+    "filenamePattern": "*.ipynb"
+  }
+],
+"window.zoomLevel": 1,
+"editor.formatOnSave": true,
 }
