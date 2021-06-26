@@ -1,0 +1,3 @@
+#!/usr/bin/env zsh
+printf "\x1bPtmux;\x1b\x1b]52;;%s\x1b\x1b\\\\\x1b\\" \
+    $(cat - | python3 -c "import sys; print(sys.stdin.read().rstrip(), end='')" | base64)

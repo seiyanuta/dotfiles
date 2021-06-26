@@ -14,6 +14,7 @@ fpath+=(~/.zsh/zsh-completions/src)
 path=(
     "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
     $HOME/bin(N-/)
+    $HOME/.bin(N-/)
     $HOME/usr/bin(N-/)
     $HOME/.cargo/bin(N-/)
     /usr/local/opt/llvm/bin/(N-/)

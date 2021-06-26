@@ -16,6 +16,7 @@
     dest: "{{ item.dst }}"
     state: link
   loop:
+    - { src: "bin",             dst: "~/.bin" }
     - { src: "nshrc",           dst: "~/.nshrc" }
     - { src: "zshrc",           dst: "~/.zshrc" }
     - { src: "tmux.conf",       dst: "~/.tmux.conf" }
